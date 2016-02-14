@@ -1,0 +1,94 @@
+body {
+
+	font-family:      Georgia, "Times New Roman", Times, serif;
+	font-size:        small;
+
+	border-color:     black;
+	border-width: 	  1px;
+	border-style: 	  solid;
+	margin:           50px 50px 50px 50px;
+	padding:		  0px 25px 25px 25px;
+	  
+}
+
+header {
+
+	font-family: 	  Georgia, Times, serif;
+	font-size: 		  medium;
+	text-align:       center;
+}
+
+/* this is pretty questionable lol */
+
+p {
+
+	margin:        	  0px;
+	padding:		  0px;
+}
+
+nav {
+	margin: 10px 10px 0px 0px;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+
+body h1 {
+
+	font-family: 	  sans-serif;
+	color: 			  Grey;
+	font-size: 		  large;
+
+}
+
+body h2 {
+
+	font-family:  	  sans-serif;
+	color: 			  Black;
+	font-size:		  small;
+}
+
+body h3 {
+
+	font-family:  	  sans-serif;
+	color: 			  Black;
+	font-size:		  small;
+
+}
+
+.underline {
+
+	padding: 0px 0px 5px 0px;
+	border-bottom: thin dotted #888888;
+
+
+}
+
+ul {
+
+	list-style: none;
+}
+
+li.selected {
+	background-color: #c8b99c;
+}
+
+
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+}

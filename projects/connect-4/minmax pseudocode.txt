@@ -1,0 +1,41 @@
+declare a global counter // this determines how many steps to iterate
+declare a global alpha (max) value // for alpha-beta pruning
+declare a global beta (min) value // for alpha-beta pruning
+
+int minmax(int[][] board, int depth) {
+
+	if ( t is a leaf node, reached desired depth, win, lose) {
+
+		return eval()
+
+	}
+
+
+	if empty board, return 0 --> random move
+
+	if it's a max turn, set a boolean to true
+	if it's a min turn, set a boolean to false
+
+
+	// use alpha beta pruning
+
+	variable val to save max/min board state
+
+	for each possible next move of current board state:
+
+		if slot is empty, fill it
+
+		call minmax() with the new board
+
+		erase slot
+
+		val = max/min(val, minmax(next board, depth + 1))
+
+
+	return val
+
+}
+
+
+
+
